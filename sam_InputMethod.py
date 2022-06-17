@@ -3,7 +3,7 @@ productCost = int(productCost)
 stateTax = 0.08
 deliveryPrice = 5.00
 
-if(productCost < 100):
+if productCost < 100:
     print("Delivery Charges are applicable: " + str(deliveryPrice))
     finalPrice = (productCost + (productCost * stateTax)) + deliveryPrice
 else:
